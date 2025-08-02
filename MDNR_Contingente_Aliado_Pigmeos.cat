@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="2f7b-2f81-2054-a790" name="MDNR Contingente Aliado: Pigmeos" revision="1" battleScribeVersion="2.03" authorName="Cordo" authorContact="leyendasenminiatura@gmail.com" authorUrl="http://www.leyendasenminiatura.com/" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="1626-9ff9-b459-94cf" name="Aliado no amistoso: Todos." hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdf5-3705-44fd-efe7" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="339a-8a99-81a8-bbfb" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7fe-2f81-2999-bd54" name="Jefe pigmeo" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29dd-d2ac-14c9-6d0a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="28d4-8ca3-b168-1cf7" name="Jefe pigmeo" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">10</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">4</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">4</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">4</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">3</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">2</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">5</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">3</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">7</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Personaje</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e22e-dfbe-629f-1227" name="Inclusión" hidden="false">
+          <description>Debes tener al menos un Jefe Pigmeo en tu Contingente Aliado Pigmeo. Sólo un Jefe Pigmeo puede ser General del Contingente Aliado.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="15b9-305d-aeab-e0de" name="Ataques envenenados" hidden="false" targetId="d77c-34cb-f94c-aee1" type="rule"/>
+        <infoLink id="c368-d338-5226-426f" name="Exploradores" hidden="false" targetId="be66-a095-abdc-bc2e" type="rule"/>
+        <infoLink id="00dd-495c-bc69-1850" name="Anfibio" hidden="false" targetId="93e1-f76b-ce3d-fb57" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8dbe-b746-d278-7b29" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c9ed-b5f4-a351-780b" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdaa-f36a-2976-e120" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d999-7c58-ddc3-c03a" name="Objetos mágicos" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="53ea-00f4-9046-81ff" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9084-d568-2728-eef2" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="166d-8e0d-fe5d-3b7a" name="Armas mágicas" hidden="false" collective="false" import="true" targetId="a5c5-247b-4c7c-27fa" type="selectionEntryGroup"/>
+                <entryLink id="261b-744d-4155-d189" name="Talismanes" hidden="false" collective="false" import="true" targetId="cd1b-be2e-2cc3-8821" type="selectionEntryGroup"/>
+                <entryLink id="65f3-4479-cd6c-a2dd" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="4262-e3e9-26e8-8e30" type="selectionEntryGroup"/>
+                <entryLink id="2daf-e8f5-76e5-5ae4" name="Armaduras mágicas" hidden="false" collective="false" import="true" targetId="e7e6-8b79-f2fd-f163" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2c32-0db7-b260-292a" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="e1ed-d68a-28d9-b7cd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8550-9b68-53c4-8870" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c77-7c0d-69e3-7c5e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d3c5-cdb5-bdd3-4928" name="Arma de mano adicional" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2fe-653f-0443-f3fd" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5aad-ef11-b064-a1b0" name="Arma de mano adicional " hidden="false" targetId="ea69-c00a-f73d-2263" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e1ed-d68a-28d9-b7cd" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81d5-879a-f4da-0319" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="46ac-b706-254e-d609" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d2ee-7339-164f-ec00" name="Lanza" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d033-1aac-99e6-4034" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="573c-91e4-c15f-e8b1" name="Lanza (caballería)" hidden="false" targetId="0115-9609-e617-662d" type="profile"/>
+                <infoLink id="e516-a22b-9fec-ef9f" name="Lanza (caballería)" hidden="false" targetId="0115-9609-e617-662d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8fd7-6a93-86bd-8875" name="Armas de proyectiles" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c4e-5ca6-cebe-dddc" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2252-c0f3-8460-a81d" name="Jabalina" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51f0-d86d-22ca-121e" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0987-28f6-bcc2-1cc9" name="Jabalina" hidden="false" targetId="55b2-44b9-4493-00a0" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2426-b594-d28b-766f" name="Cerbatana" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f24-a62d-8f57-8cf5" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="bfd5-40b3-2d36-2b2c" name="Cerbatana" hidden="false" targetId="ce57-42c9-3888-2244" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7b73-d16d-71b3-d5ad" name="Armadura" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf55-4372-b6f5-c4ab" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="89a0-d959-cb71-ea4d" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d9a-d13c-e830-e322" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1632-825b-293e-8039" name="Armadura ligera" hidden="false" targetId="c534-e31e-c936-c2f2" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2844-4dc5-0179-c3ee" name="Escudo" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc7e-7f73-a2ec-6bc9" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f6d8-4963-b6a4-3db7" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6286-5bcf-a02e-11c3" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5f1a-55a7-0ef1-4431" name="Escudo" hidden="false" targetId="1e84-3cd7-87ca-0372" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c2d0-30df-5898-e1df" name="Doctor brujo" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4847-4fc8-3d3e-80ea" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6ee0-9589-39c9-a91e" name="Doctor brujo" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">10</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">2</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">3</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">3</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">2</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">2</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">4</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">1</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">6</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Personaje</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c611-954e-dddb-fd3b" name="Anfibio" hidden="false" targetId="93e1-f76b-ce3d-fb57" type="rule"/>
+        <infoLink id="ac8f-c522-d618-9328" name="Exploradores" hidden="false" targetId="be66-a095-abdc-bc2e" type="rule"/>
+        <infoLink id="9707-c8b7-f3af-e0c9" name="Ataques envenenados" hidden="false" targetId="d77c-34cb-f94c-aee1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b0ac-6799-fccd-c6bd" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6c95-cfb6-7162-6eaf" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc57-48a9-ea3c-f8b5" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="875a-adf8-e080-b263" name="Objetos mágicos" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="53ea-00f4-9046-81ff" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="99ea-ed5f-fb83-62ae" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="b445-f40e-1f07-18fe" name="Objetos arcanos" hidden="false" collective="false" import="true" targetId="6e05-1c56-ef8b-7ab7" type="selectionEntryGroup"/>
+                <entryLink id="e1ba-beda-6a47-5e97" name="Talismanes" hidden="false" collective="false" import="true" targetId="cd1b-be2e-2cc3-8821" type="selectionEntryGroup"/>
+                <entryLink id="d7bf-100b-049b-df01" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="4262-e3e9-26e8-8e30" type="selectionEntryGroup"/>
+                <entryLink id="aa99-8880-a15a-9164" name="Armas mágicas" hidden="false" collective="false" import="true" targetId="a5c5-247b-4c7c-27fa" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e461-d568-9b89-7c62" name="Nivel" hidden="false" collective="false" import="true" defaultSelectionEntryId="d28a-2996-7e33-c235">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ca6-cf66-f24c-2af8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ea0-b5be-5981-bdf6" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d28a-2996-7e33-c235" name="Nivel 1" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2283-0542-cc6d-b88a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="45cf-50a8-21fc-0982" name="Nivel 2" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf16-6743-25e5-d1bb" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f9e0-6a58-67e1-a4ef" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="57e6-1c9f-39b3-14f1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c571-a2a1-bd07-c294" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27f8-d96e-7f31-0057" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="57e6-1c9f-39b3-14f1" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c12a-778d-c213-7e3e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bda-ac97-858f-79c9" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="fa9b-0bd5-6ba5-9259" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f29b-9b06-70e0-6f65" name="Armas de proyectiles" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0cb-13a7-3a3d-fd74" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9484-2743-53f3-665f" name="Jabalina" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a61-35cb-77e5-9a27" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b39c-9e89-2b60-9234" name="Jabalina" hidden="false" targetId="55b2-44b9-4493-00a0" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="02cb-9e8f-6908-8941" name="Cerbatana" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58b6-2153-b096-61af" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1846-6c61-e331-5b3a" name="Cerbatana" hidden="false" targetId="ce57-42c9-3888-2244" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0acb-4641-ce96-90e4" name="Saber" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="706a-32a8-75be-1174" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="23cb-4721-d926-16d4" name="Saber de la Vida" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6434-a6ee-4e44-518d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="28b2-5806-46b1-511d" name="Saber de la Muerte" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="115d-97bb-efa7-6f00" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fdf5-64c5-7b7a-785d" name="Guerreros pigmeos" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2ac3-b655-e013-900f" name="Pigmeo" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">10</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">2</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">3</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">3</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">2</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">1</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">4</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">1</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">6</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e">6+</characteristic>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Infantería</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a2ba-a55a-6740-98a6" name="Campeón pigmeo" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">10</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">2</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">3</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">3</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">2</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">1</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">2</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">2</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">6</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e">6+</characteristic>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Infantería</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="34b4-3670-2da0-4461" name="Anfibio" hidden="false" targetId="93e1-f76b-ce3d-fb57" type="rule"/>
+        <infoLink id="de61-4e22-1c48-cd45" name="Exploradores" hidden="false" targetId="be66-a095-abdc-bc2e" type="rule"/>
+        <infoLink id="1b6b-16b2-99d0-d5b1" name="Ataques envenenados" hidden="false" targetId="d77c-34cb-f94c-aee1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9fc1-f3a7-83f6-2c21" name="New CategoryLink" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a038-b2b4-fcfd-948b" name="Grupo de mando" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feef-cd6e-87c7-d6b6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e9e1-e7ac-1667-3502" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9663-87ee-ae66-181f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3bb5-cb89-63bf-be02" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6310-ecc1-a225-1083" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="811b-7d9b-c8e3-ea38" name="Campeón pigmeo" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58e8-1366-3db4-503b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="09fe-0c57-8d08-b90a" name="Guerreros pigmeos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2488-a996-70e2-9cbf" type="min"/>
+            <constraint field="selections" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7955-83b2-7f32-4de4" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f9bb-2f82-cc70-56c6" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="be91-b466-520b-a67f">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="269d-539f-d8d8-fe2e" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cf0-5e44-10b5-c503" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="0569-ed57-6a88-b9f9" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d20-3b67-e468-188e" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c94-fd13-5097-0b6c" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="97ca-c84b-5888-576e" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="be91-b466-520b-a67f" name="Lanza" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="129d-ea4d-0d23-8ed8" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e131-4200-c13f-d458" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="3c18-0c06-9aa1-f52d" name="Lanza (infantería)" hidden="false" targetId="b34b-3f52-e95c-d5f3" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3571-dc1b-bac1-ad84" name="Escudo" hidden="false" collective="false" import="true" defaultSelectionEntryId="4979-ceeb-e16e-f406">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f77-268d-fb21-1e2c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c001-ff78-34ba-9926" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="4979-ceeb-e16e-f406" name="Escudo" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7340-0181-ee9f-827e" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f313-79aa-07e3-252a" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="729f-d97a-f76d-e9c1" name="Escudo" hidden="false" targetId="1e84-3cd7-87ca-0372" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="248e-fa2c-67d6-f706" name="Bravos" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e9ff-9576-7551-37ac" name="Bravo" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">10</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">2</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">3</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">3</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">2</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">1</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">4</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">1</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">6</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Infantería</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2520-aec8-de58-660e" name="Campeón bravo" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">10</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">2</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">4</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">3</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">2</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">1</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">2</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">1</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">6</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Infantería</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1a08-4fda-195a-8928" name="Anfibio" hidden="false" targetId="93e1-f76b-ce3d-fb57" type="rule"/>
+        <infoLink id="0ea4-7eb8-a244-46c7" name="Exploradores" hidden="false" targetId="be66-a095-abdc-bc2e" type="rule"/>
+        <infoLink id="0a0d-c390-cc88-1273" name="Ataques envenenados" hidden="false" targetId="d77c-34cb-f94c-aee1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c168-82ec-8d45-533b" name="New CategoryLink" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c870-9f27-8b34-5770" name="Grupo de mando" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c5c-207a-75d1-6347" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9776-3fbb-9bcd-f095" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b0a-a7c4-bce2-ef22" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="584f-13b7-522e-b028" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dff5-506e-d545-2963" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7f5a-bc43-9ed7-7dff" name="Campeón bravo" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f223-85a2-a4b3-aaec" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d39d-6d60-ea54-d1f1" name="Bravos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dce7-b937-c0fd-c08b" type="min"/>
+            <constraint field="selections" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c79d-43ff-c348-de3e" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="114e-5fbc-b60e-e736" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="2916-5c31-a9e5-6973">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e0f-289d-73e7-8c8f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80a0-4a79-b380-e92a" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="2916-5c31-a9e5-6973" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16ef-fc6b-fa08-7b60" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c89-162c-ab01-f01e" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="c7ea-4fe5-3b08-5b62" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6ae3-a3e4-0ade-c32f" name="Armas de proyectiles" hidden="false" collective="false" import="true" defaultSelectionEntryId="a37d-a5f1-ff60-6b28">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf9a-3d30-b43b-dca8" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3157-4452-8d6a-86e8" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="a37d-a5f1-ff60-6b28" name="Cerbatana" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a40-64cc-c02b-0c43" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0655-1185-1465-2c6d" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="f303-c9dc-db95-fc02" name="Cerbatana" hidden="false" targetId="ce57-42c9-3888-2244" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="752a-20c7-a8ee-119f" name="Impis" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d3fe-ba68-28a1-c396" name="Impi" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">10</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">4</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">3</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">3</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">2</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">1</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">4</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">1</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">6</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Infantería</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0d5a-a306-ebbf-256c" name="Campeón impi" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">10</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">4</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">3</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">3</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">2</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">1</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">2</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">2</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">6</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Infantería</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2780-f027-073b-7f87" name="Anfibio" hidden="false" targetId="93e1-f76b-ce3d-fb57" type="rule"/>
+        <infoLink id="8933-8be1-de18-b5aa" name="Exploradores" hidden="false" targetId="be66-a095-abdc-bc2e" type="rule"/>
+        <infoLink id="def4-784f-31f4-93ab" name="Ataques envenenados" hidden="false" targetId="d77c-34cb-f94c-aee1" type="rule"/>
+        <infoLink id="78a1-8f43-aecf-c7b6" name="Odio" hidden="false" targetId="d574-0f13-6d93-2a87" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d89b-4adf-08fb-a737" name="New CategoryLink" hidden="false" targetId="102e-012c-5785-3354" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7f7f-4041-ea0f-9ef5" name="Grupo de mando" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd7d-eef6-7709-0649" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b02a-1054-9b00-b028" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aa5-daa4-0de5-45b3" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6106-1852-276d-9466" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="629e-74fc-9f49-d671" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="70de-c08a-42f1-555f" name="Campeón impi" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1352-ff1e-7c6f-92c4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f7d2-8a0c-1173-5dbd" name="Impis" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ab3-1325-4572-800c" type="min"/>
+            <constraint field="selections" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9a6-cfd1-db07-339c" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1567-67a1-ca42-e697" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="7e48-8a92-0c19-350c">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26a2-e9d9-c1a0-1a34" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f18d-29d2-2fd5-541a" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="7e48-8a92-0c19-350c" name="Dos armas de mano" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b3a-2e07-c848-f848" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2714-8477-b6f7-84d7" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="1a15-c179-6350-2edf" name="Arma de mano adicional " hidden="false" targetId="ea69-c00a-f73d-2263" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="e7e6-8b79-f2fd-f163" name="Armaduras mágicas" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="789a-d9a4-5f78-e294" name="Escudo hechizado" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f42-44c4-1056-b2a2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9783-5aba-5df1-3459" name="Escudo hechizado" hidden="false" typeId="7895-caab-ea85-11a6" typeName="Armadura">
+              <characteristics>
+                <characteristic name="Salvación por armadura" typeId="b9eb-92d5-e891-ed20">-2</characteristic>
+                <characteristic name="Reglas especiales" typeId="9bf4-3410-57d2-8871">Este Escudo puede combinarse con cualquier otra armadura mundana o mágica.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a5c5-247b-4c7c-27fa" name="Armas mágicas" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="102e-ae78-2d5c-06ad" name="Espada de batalla" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc31-03b2-c954-207e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d4ef-639f-98c4-d775" name="Espada de batalla" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
+              <characteristics>
+                <characteristic name="Alcance" typeId="cafc-207a-b76d-8124">Cuerpo a cuerpo</characteristic>
+                <characteristic name="Fuerza" typeId="c938-3c85-689c-fbbd">La del usuario</characteristic>
+                <characteristic name="Reglas especiales" typeId="4348-8db0-9b33-fd91">+1A</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="19f1-6caf-ac95-3d10" name="Espada del poder" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="42b6-526b-a16d-b27c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7433-c3fc-a013-4535" name="Espada del poder" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
+              <characteristics>
+                <characteristic name="Alcance" typeId="cafc-207a-b76d-8124">Cuerpo a cuerpo</characteristic>
+                <characteristic name="Fuerza" typeId="c938-3c85-689c-fbbd">La del usuario + 1</characteristic>
+                <characteristic name="Reglas especiales" typeId="4348-8db0-9b33-fd91"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f0eb-fcfc-11ec-fce0" name="Espada veloz" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9cd1-afa4-ba4b-93bf" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c6a9-95a0-9944-6623" name="Espada veloz" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
+              <characteristics>
+                <characteristic name="Alcance" typeId="cafc-207a-b76d-8124">Cuerpo a cuerpo</characteristic>
+                <characteristic name="Fuerza" typeId="c938-3c85-689c-fbbd">La del usuario</characteristic>
+                <characteristic name="Reglas especiales" typeId="4348-8db0-9b33-fd91">+1 a impactar</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d07d-36ef-327e-4519" name="Mordisco de acero" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a085-2c68-2394-46b2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3e6d-b669-07fc-4e8a" name="Mordisco de acero" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
+              <characteristics>
+                <characteristic name="Alcance" typeId="cafc-207a-b76d-8124">Cuerpo a cuerpo</characteristic>
+                <characteristic name="Fuerza" typeId="c938-3c85-689c-fbbd">La del usuario</characteristic>
+                <characteristic name="Reglas especiales" typeId="4348-8db0-9b33-fd91">-1 a la TSA del enemigo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f586-22f1-cbdf-d448" name="Estandartes mágicos" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="3f3c-d02b-3d72-ebfc" name="Estandarte de guerra" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="17ba-986d-4d8d-128b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b9cb-911b-c907-49a1" name="Estandarte de guerra" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
+              <characteristics>
+                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">+1 a la resolución de combate</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6e05-1c56-ef8b-7ab7" name="Objetos arcanos" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="7a43-4c9d-9b2e-ef58" name="Báculo del hechicero" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3722-f683-0583-23b1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="36e9-7ba4-118d-39ef" name="Báculo del hechicero" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
+              <characteristics>
+                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">El portador tiene un +1 a las tiradas para dispersar hechizos.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b910-47c2-9034-cb2f" name="Pergamino de dispersión" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="7a83-0188-1a5e-636a" name="Pergamino de dispersión" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
+              <characteristics>
+                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">Un solo uso. Dispersa el hechizo objetivo. Este objeto puede repetirse en el mismo personaje o en otros.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1dbe-964f-b497-cc83" name="Piedra de energía" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="d204-5595-d7ca-10d2" name="Piedra de energía" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
+              <characteristics>
+                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">Un solo uso. +2 dados para lanzar un hechizo. Este objeto puede repetirse en el mismo personaje o en otros.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4262-e3e9-26e8-8e30" name="Objetos hechizados" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="cd1b-be2e-2cc3-8821" name="Talismanes" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="431b-bea0-3c57-359a" name="Talismán de protección" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a492-c137-a271-5792" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f9a5-99b3-b7d4-9156" name="Talismán de protección" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
+              <characteristics>
+                <characteristic name="Protección" typeId="9f41-c15e-1f5f-9d01">TSE 6+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="93e1-f76b-ce3d-fb57" name="Anfibio" hidden="false">
+      <description>Las miniaturas Anfibias tienen Cruzar (Elementos acuáticos). Esto incluye tanto los elementos acuáticos normales (lagos, ríos, marismas) como los que se generan mágicamente como con el hechizo Señora del Río. Además, toda unidad completamente en terreno acuático se considera en cobertura ligera.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="ce57-42c9-3888-2244" name="Cerbatana" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
+      <characteristics>
+        <characteristic name="Alcance" typeId="cafc-207a-b76d-8124">30 cm</characteristic>
+        <characteristic name="Fuerza" typeId="c938-3c85-689c-fbbd">3</characteristic>
+        <characteristic name="Reglas especiales" typeId="4348-8db0-9b33-fd91">Disparos múltiples x2 Ten en cuenta que no son armas arrojadizas, así que igualmente tiene penalización por mover y disparar, largo alcance... Las tiradas que necesiten un 7+ para impactar (por ejemplo: eslizones con cerbatana que hayan movido, disparen a un objetivo a largo alcance y hagan disparos múltiples) nunca causan ataques envenenados.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

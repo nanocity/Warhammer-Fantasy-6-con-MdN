@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="54c7-98b1-d115-0a65" name="MDNR Monstruos Arcanos v5" revision="1" battleScribeVersion="2.03" authorName="Cordo" authorContact="leyendasenminiatura@gmail.com" authorUrl="http://www.leyendasenminiatura.com/" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="2473-e956-3f2d-b5e5" name="Basilisco (monstruo arcano)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="dc64-5255-bea9-0bd3" name="Basilisco" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">20</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">4</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">0</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">5</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">6</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">6</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">5</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">5</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">6</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e">4+</characteristic>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Monstruo</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="aa63-b72c-a841-aefe" name="Sangre fría" hidden="false">
+          <description>Para todos los chequeos de Liderazgo (incluyendo Chequeos de Psicología y Chequeos de Desmoralización), lanza 3 dados y descartan el dado mayor.</description>
+        </rule>
+        <rule id="2ab0-90bf-4411-384e" name="Cruzar bosques" hidden="false"/>
+      </rules>
+      <infoLinks>
+        <infoLink id="8fce-7c3f-577e-d354" name="Terror" hidden="false" targetId="31ab-3ff3-e34f-baac" type="rule"/>
+        <infoLink id="9d2f-d806-b190-79eb" name="Objetivo grande" hidden="false" targetId="9e28-dc38-0f21-77f6" type="rule"/>
+        <infoLink id="90f4-dd03-6e16-33c8" name="Petrificar (1D6)" hidden="false" targetId="5bac-d6aa-51f0-82d5" type="rule"/>
+        <infoLink id="c11f-3c2e-6824-e312" name="Monstruo arcano" hidden="false" targetId="18e9-2d5c-9f5d-cd21" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f49a-0db2-2c78-f210" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="235.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7468-fda3-3b18-1a2c" name="Dragón carmesí (monstruo arcano, ocupa hueco de singular y héroe)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d3de-b84e-b500-1d6f" name="Dragón carmesí" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">15</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">5</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">0</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">5</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">6</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">6</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">5</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">6</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">8</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e">3+</characteristic>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Monstruo</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="81ba-1c9e-1bf0-409e" name="Chorro de chispas" hidden="false">
+          <description>En vez de usar la peana de lágrima, este aliento funciona parecido a un cañonazo. Su alcance es de 15cm + el resultado de la tirada de un dado de artillería (en caso de obtener un resultado de Problemas, el alcance será solamente de 15cm) y se resuelve como el impacto de una bala de cañón de F2 que anula armaduras y con Heridas múltiples (1D3).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3df5-364c-7ec8-6829" name="Terror" hidden="false" targetId="31ab-3ff3-e34f-baac" type="rule"/>
+        <infoLink id="9b42-515a-0122-2ca5" name="Objetivo grande" hidden="false" targetId="9e28-dc38-0f21-77f6" type="rule"/>
+        <infoLink id="2da7-0d7d-d930-ffe7" name="Volar" hidden="false" targetId="90d6-fe4d-a823-314b" type="rule"/>
+        <infoLink id="03c8-784c-9f72-78f1" name="Monstruo arcano" hidden="false" targetId="18e9-2d5c-9f5d-cd21" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7c79-3917-a0d7-2e65" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
+        <categoryLink id="905a-6edf-11c2-bbfd" name="Héroe" hidden="false" targetId="c647-4209-4e6c-206a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="325.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bdd3-48ed-cf36-eb27" name="Dragón de disformidad (monstruo arcano, ocupa hueco de singular y héroe)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0eed-b264-579d-b072" name="Dragón de disformidad" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">15</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">6</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">0</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">6</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">6</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">6</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">3</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">5</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">8</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e">3+</characteristic>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Monstruo</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="32a4-ca3b-de19-3212" name="Bolas de fuego de disformidad" hidden="false">
+          <description>Se trata de un Ataque de plantilla, se realiza en la fase de Disparo y se dispara de la misma forma que una Catapulta (no es una máquina de guerra). Este ataque tiene un alcance entre 15 y 60cm, y usa la plantilla redonda pequeña; todas las miniaturas bajo la plantilla (parciales a 4+) sufren un impacto de F4 con la regla Ataques flamígeros y con Heridas múltiples (1D3); la miniatura bajo el punto central de la plantilla sufre impacto de F6 con Heridas múltiples 1D3. Las Heridas múltiples suben a 1D6 contra miniaturas de tipo No Muerto o Demonio, o miniaturas con la regla Etéreo. El Dragón puede escupir bolas de fuego disforme aunque haya movido, pero no si está trabado en combate cuerpo a cuerpo (como es habitual). Volar no se considera marcha.</description>
+        </rule>
+        <rule id="888e-d03b-a6e8-3725" name="Inmune a disformidad" hidden="false">
+          <description>El Dragón de Disformidad es inmune a todos los ataques de disformidad. Esto incluye el Fuego disforme de otro Dragón de Disformidad, así como cualquier arma de
+piedra bruja, rayo del cañón de disformidad, los hechizos de la magia Skaven, y todas las armas de la sección de objetos mágicos skaven (todos los ataques Skaven mágicos), ya que todo lleva piedra bruja...). Esto quiere decir que ninguna arma mágica ni ataque mágico Skaven puede herir al Dragón de Disformidad (se considera que todas las tiradas para herir fallan automáticamente, incluso aquellas que pudieran herir automáticamente).</description>
+        </rule>
+        <rule id="d43b-be9b-108f-c615" name="Inclusión" hidden="false">
+          <description>No puedes añadir un Dragón de Disformidad en un ejército de Skavens.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="480e-db6e-e966-e268" name="Terror" hidden="false" targetId="31ab-3ff3-e34f-baac" type="rule"/>
+        <infoLink id="cb66-1efc-9323-0250" name="Objetivo grande" hidden="false" targetId="9e28-dc38-0f21-77f6" type="rule"/>
+        <infoLink id="083c-a928-630d-29cd" name="Volar" hidden="false" targetId="90d6-fe4d-a823-314b" type="rule"/>
+        <infoLink id="870b-89b6-0d77-7f63" name="Ataques mágicos" hidden="false" targetId="6e5c-a8a4-78d0-032b" type="rule"/>
+        <infoLink id="2f23-8ade-6a52-7c9b" name="Monstruo arcano" hidden="false" targetId="18e9-2d5c-9f5d-cd21" type="rule"/>
+        <infoLink id="0bcc-4417-af7e-9dc8" name="Regeneración (6+)" hidden="false" targetId="7262-f89a-ed76-72bf" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="85e0-9a07-4fe3-287b" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
+        <categoryLink id="0465-a8fd-fd05-796b" name="Héroe" hidden="false" targetId="c647-4209-4e6c-206a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="405.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6eed-6eb1-0f85-7133" name="Dragón de magma (monstruo arcano, ocupa hueco de singular y héroe)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="90da-f766-9a42-65e1" name="Dragón de magma" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">15</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">6</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">0</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">6</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">6</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">6</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">3</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">5</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">8</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e">3+</characteristic>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Monstruo</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="371c-4766-2803-4569" name="Escupir llamas" hidden="false">
+          <description>Se trata de un Ataque de Aliento que usa la plantilla de lágrima; causa impactos de F4, con la regla Ataques flamígeros. Cualquier unidad enemiga que reciba 1 o más bajas a causa de este ataque deberá hacer un chequeo de pánico.</description>
+        </rule>
+        <rule id="d0a8-34f4-2488-d5f4" name="Inmune a ataques flamígeros" hidden="false"/>
+        <rule id="bf86-3e1a-045b-b3c7" name="Inclusión" hidden="false">
+          <description>Sólo puedes incluir un Dragón de Magma en un ejército de Mercenarios o Reino del Caos.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="aa81-81e4-b276-7c5f" name="Terror" hidden="false" targetId="31ab-3ff3-e34f-baac" type="rule"/>
+        <infoLink id="6922-231f-b4ab-a303" name="Objetivo grande" hidden="false" targetId="9e28-dc38-0f21-77f6" type="rule"/>
+        <infoLink id="6258-cced-ef25-86f1" name="Volar" hidden="false" targetId="90d6-fe4d-a823-314b" type="rule"/>
+        <infoLink id="dce3-fc51-517e-5697" name="Inmune a psicología" hidden="false" targetId="3970-3b01-1734-d642" type="rule"/>
+        <infoLink id="24b9-4efe-e433-107b" name="Monstruo arcano" hidden="false" targetId="18e9-2d5c-9f5d-cd21" type="rule"/>
+        <infoLink id="057c-f404-4877-f92d" name="Regeneración (6+)" hidden="false" targetId="7262-f89a-ed76-72bf" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ccaf-97e5-6ebb-4931" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
+        <categoryLink id="522e-b861-fd88-bd0e" name="Héroe" hidden="false" targetId="c647-4209-4e6c-206a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="360.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cfc2-3e3a-0b87-606e" name="Elemental de agua (monstruo arcano)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2443-e928-a022-222a" name="Elemental de agua" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">18</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">5</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">0</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">6</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">5</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">5</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">5</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">5</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">7</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Monstruo</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="69c9-7634-1f10-ee04" name="Tirada de salvación especial 5+" hidden="false"/>
+        <rule id="1b0f-3722-d01f-9864" name="Elemental encarnado (Vida)" hidden="false">
+          <description>Inmune a todos los hechizos del Saber de la Vida. Los Elementales Encarnados cuentan como tipo “Demonio” y “No Muerto” en lo que respecta a efectos que les puedan causar daño adicional.</description>
+        </rule>
+        <rule id="d88c-ec31-1e23-7475" name="Hechizos vinculados" hidden="false">
+          <description>Cada Elemental puede lanzar UNO de estos hechizos en cada fase de magia, como si fuera un objeto portahechizos de nivel de energía 3. Esto es una habilidad del Elemental, no es un objeto mágico. Los hechizos son del Saber de la Vida: Señora del Río y Señor de la Lluvia.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ccaf-45af-b244-044b" name="Terror" hidden="false" targetId="31ab-3ff3-e34f-baac" type="rule"/>
+        <infoLink id="b584-4116-0438-98d8" name="Objetivo grande" hidden="false" targetId="9e28-dc38-0f21-77f6" type="rule"/>
+        <infoLink id="5bcb-3430-609f-a37e" name="Inestable" hidden="false" targetId="e1e7-a7dd-415e-a2a4" type="rule"/>
+        <infoLink id="4237-6fe0-54ca-d83c" name="Inmune a psicología" hidden="false" targetId="3970-3b01-1734-d642" type="rule"/>
+        <infoLink id="4515-f241-3723-6d3d" name="Ataques mágicos" hidden="false" targetId="6e5c-a8a4-78d0-032b" type="rule"/>
+        <infoLink id="c9ee-34fd-7d4b-d5c2" name="Monstruo arcano" hidden="false" targetId="18e9-2d5c-9f5d-cd21" type="rule"/>
+        <infoLink id="b157-2709-5943-5301" name="Vinculado (X)" hidden="false" targetId="3a75-7c99-6630-8685" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="11c8-4947-cd80-d7ce" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="933f-8108-f175-b41a" name="Elemental de aire (monstruo arcano)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2e6f-e3c1-6456-ae01" name="Elemental de aire" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">18</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">6</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">0</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">5</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">5</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">4</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">8</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">5</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">7</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Monstruo</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="da40-b933-17d0-ee9c" name="Tirada de salvación especial 5+" hidden="false"/>
+        <rule id="fcf3-7e64-5f84-04e7" name="Elemental encarnado (Cielos)" hidden="false">
+          <description>Inmune a todos los hechizos del Saber de los Cielos. Los Elementales Encarnados cuentan como tipo “Demonio” y “No Muerto” en lo que respecta a efectos que les puedan causar daño adicional.</description>
+        </rule>
+        <rule id="0e31-7141-0137-372d" name="Hechizos vinculados" hidden="false">
+          <description>Cada Elemental puede lanzar UNO de estos hechizos en cada fase de magia, como si fuera un objeto portahechizos de nivel de energía 3. Esto es una habilidad del Elemental, no es un objeto mágico. Los hechizos son del Saber de los Cielos: Tormenta de Cronos y Viento Aullante (en caso de lanzarlo con éxito, el hechizo no Permanece en Juego sino que dura hasta el inicio de la siguiente fase de magia propia).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ea82-4ba4-5493-1f74" name="Terror" hidden="false" targetId="31ab-3ff3-e34f-baac" type="rule"/>
+        <infoLink id="b985-5a79-14c8-c87a" name="Objetivo grande" hidden="false" targetId="9e28-dc38-0f21-77f6" type="rule"/>
+        <infoLink id="ad10-237c-9a09-09ce" name="Inestable" hidden="false" targetId="e1e7-a7dd-415e-a2a4" type="rule"/>
+        <infoLink id="224c-bf66-c97b-0a5d" name="Inmune a psicología" hidden="false" targetId="3970-3b01-1734-d642" type="rule"/>
+        <infoLink id="0d1f-f021-2fe7-9c02" name="Ataques mágicos" hidden="false" targetId="6e5c-a8a4-78d0-032b" type="rule"/>
+        <infoLink id="f449-a03f-ba22-87f9" name="Volar" hidden="false" targetId="90d6-fe4d-a823-314b" type="rule"/>
+        <infoLink id="e737-cbb7-26b3-0e8f" name="Monstruo arcano" hidden="false" targetId="18e9-2d5c-9f5d-cd21" type="rule"/>
+        <infoLink id="a8d7-0eeb-3245-6b5f" name="Vinculado (X)" hidden="false" targetId="3a75-7c99-6630-8685" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="19c6-1199-3ca6-75f8" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab6e-5ce8-9280-bc85" name="Elemental de bestias (monstruo arcano)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2a76-9f1a-08de-35b8" name="Elemental de bestias" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">18</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">5</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">0</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">6</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">5</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">5</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">4</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">6</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">7</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Monstruo</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="73ef-fa8a-4f61-d08c" name="Tirada de salvación especial 5+" hidden="false"/>
+        <rule id="0c29-60cf-7491-5e5a" name="Elemental encarnado (Bestias)" hidden="false">
+          <description>Inmune a todos los hechizos del Saber de las Bestias. Los Elementales Encarnados cuentan como tipo “Demonio” y “No Muerto” en lo que respecta a efectos que les puedan causar daño adicional.</description>
+        </rule>
+        <rule id="1219-9c4d-f9ec-2db4" name="Hechizos vinculados" hidden="false">
+          <description>Cada Elemental puede lanzar este hechizo en cada fase de magia, como si fuera un objeto portahechizos de nivel de energía 3. Esto es una habilidad del Elemental, no es un objeto mágico. El hechizo es El Grito del Águila del Saber de las Bestias.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9535-12c6-72a1-f582" name="Terror" hidden="false" targetId="31ab-3ff3-e34f-baac" type="rule"/>
+        <infoLink id="efd2-582d-b545-a774" name="Objetivo grande" hidden="false" targetId="9e28-dc38-0f21-77f6" type="rule"/>
+        <infoLink id="e383-cb37-de21-5a29" name="Inestable" hidden="false" targetId="e1e7-a7dd-415e-a2a4" type="rule"/>
+        <infoLink id="e210-f24d-b91f-9d8e" name="Inmune a psicología" hidden="false" targetId="3970-3b01-1734-d642" type="rule"/>
+        <infoLink id="22ba-8097-2898-526e" name="Ataques mágicos" hidden="false" targetId="6e5c-a8a4-78d0-032b" type="rule"/>
+        <infoLink id="fa9c-7d5d-04f8-1821" name="Monstruo arcano" hidden="false" targetId="18e9-2d5c-9f5d-cd21" type="rule"/>
+        <infoLink id="e68b-3d1c-0918-d39d" name="Vinculado (X)" hidden="false" targetId="3a75-7c99-6630-8685" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ef03-c871-3441-f209" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91cf-1b12-ad77-4060" name="Elemental de fuego (monstruo arcano)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5359-d157-77f3-6210" name="Elemental de fuego" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">18</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">4</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">0</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">5</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">5</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">5</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">5</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">5</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">7</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Monstruo</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="110e-769a-0749-ac4e" name="Tirada de salvación especial 5+" hidden="false"/>
+        <rule id="59b6-979a-1635-fac0" name="Elemental encarnado (Fuego)" hidden="false">
+          <description>Inmune a todos los hechizos del Saber del Fuego. Los Elementales Encarnados cuentan como tipo “Demonio” y “No Muerto” en lo que respecta a efectos que les puedan causar daño adicional.</description>
+        </rule>
+        <rule id="8592-faa9-ae56-af1e" name="Hechizos vinculados" hidden="false">
+          <description>Cada Elemental puede lanzar UNO de estos hechizos en cada fase de magia, como si fuera un objeto portahechizos de nivel de energía 3. Esto es una habilidad del Elemental, no es un objeto mágico. Los hechizos son del Saber del Fuego: Bola de Fuego, Cabeza Ardiente y Muro de Fuego.</description>
+        </rule>
+        <rule id="4186-39a6-7511-a7df" name="Inmune a ataques flamígeros" hidden="false"/>
+      </rules>
+      <infoLinks>
+        <infoLink id="5c2f-506a-7ab5-755b" name="Terror" hidden="false" targetId="31ab-3ff3-e34f-baac" type="rule"/>
+        <infoLink id="2413-3ad6-a165-47d7" name="Objetivo grande" hidden="false" targetId="9e28-dc38-0f21-77f6" type="rule"/>
+        <infoLink id="b15e-4150-68cf-074f" name="Inestable" hidden="false" targetId="e1e7-a7dd-415e-a2a4" type="rule"/>
+        <infoLink id="55f1-2e59-777d-3ea9" name="Inmune a psicología" hidden="false" targetId="3970-3b01-1734-d642" type="rule"/>
+        <infoLink id="d247-0d81-91e0-327c" name="Ataques mágicos" hidden="false" targetId="6e5c-a8a4-78d0-032b" type="rule"/>
+        <infoLink id="271a-c833-0f16-c714" name="Ataques flamígeros" hidden="false" targetId="b586-6dd5-cfa2-4287" type="rule"/>
+        <infoLink id="20e7-9166-03d1-1ceb" name="Monstruo arcano" hidden="false" targetId="18e9-2d5c-9f5d-cd21" type="rule"/>
+        <infoLink id="65fd-82c9-d0a8-d61e" name="Vinculado (X)" hidden="false" targetId="3a75-7c99-6630-8685" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9f6d-9687-0b6a-4d0d" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="abb9-9cb9-a63d-1c2e" name="Elemental de muerte (monstruo arcano)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ed6d-54fb-1444-dc1b" name="Elemental de muerte" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">15</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">4</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">0</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">5</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">5</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">5</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">5</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">5</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">7</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Monstruo</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="224e-2ff8-0e3b-0e4c" name="Tirada de salvación especial 5+" hidden="false"/>
+        <rule id="8f9d-bc20-99f7-9c0a" name="Elemental encarnado (Muerte)" hidden="false">
+          <description>Inmune a todos los hechizos del Saber de la Muerte. Los Elementales Encarnados cuentan como tipo “Demonio” y “No Muerto” en lo que respecta a efectos que les puedan causar daño adicional.</description>
+        </rule>
+        <rule id="2787-886b-72d6-e952" name="Hechizos vinculados" hidden="false">
+          <description>Cada Elemental puede lanzar UNO de estos hechizos en cada fase de magia, como si fuera un objeto portahechizos de nivel de energía 3. Esto es una habilidad del Elemental, no es un objeto mágico. Los hechizos son del Saber de la Muerte: Robar Vida, Robo de Alma.</description>
+        </rule>
+        <rule id="f11b-925a-c66b-3596" name="Flotar" hidden="false">
+          <description>Se considera Volar a todos los efectos, salvo que lo hace a una distancia de 25cm en vez de los 50cm habituales del vuelo.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e9d3-ad7d-0d19-5016" name="Terror" hidden="false" targetId="31ab-3ff3-e34f-baac" type="rule"/>
+        <infoLink id="ab8b-dd06-414e-a5ff" name="Objetivo grande" hidden="false" targetId="9e28-dc38-0f21-77f6" type="rule"/>
+        <infoLink id="de63-4762-c6c4-7cd5" name="Inestable" hidden="false" targetId="e1e7-a7dd-415e-a2a4" type="rule"/>
+        <infoLink id="4983-4af5-6508-0f66" name="Inmune a psicología" hidden="false" targetId="3970-3b01-1734-d642" type="rule"/>
+        <infoLink id="ba38-a60b-025b-fd6b" name="Ataques mágicos" hidden="false" targetId="6e5c-a8a4-78d0-032b" type="rule"/>
+        <infoLink id="e50f-8cff-85c2-81f1" name="Monstruo arcano" hidden="false" targetId="18e9-2d5c-9f5d-cd21" type="rule"/>
+        <infoLink id="69f9-b4fc-ed32-9923" name="Vinculado (X)" hidden="false" targetId="3a75-7c99-6630-8685" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ba46-a19f-3748-3f2b" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ebd-1487-0354-4e26" name="Elemental de tierra (monstruo arcano)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0440-199b-86e2-fc36" name="Elemental de tierra" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">15</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">5</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">0</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">5</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">6</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">5</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">4</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">5</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">7</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Monstruo</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6825-661d-b97a-4bd8" name="Tirada de salvación especial 5+" hidden="false"/>
+        <rule id="40dd-451c-ee72-d2ce" name="Elemental encarnado (Metal)" hidden="false">
+          <description>Inmune a todos los hechizos del Saber del Metal. Los Elementales Encarnados cuentan como tipo “Demonio” y “No Muerto” en lo que respecta a efectos que les puedan causar daño adicional.</description>
+        </rule>
+        <rule id="3e6b-16b5-d597-6ea6" name="Hechizos vinculados" hidden="false">
+          <description>Cada Elemental puede lanzar este hechizo en cada fase de magia, como si fuera un objeto portahechizos de nivel de energía 3. Esto es una habilidad del Elemental, no
+es un objeto mágico. El hechizo es Transmutación en Plomo del Saber del Metal.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="462e-09d3-5e66-e43e" name="Terror" hidden="false" targetId="31ab-3ff3-e34f-baac" type="rule"/>
+        <infoLink id="d142-9783-da8b-0917" name="Objetivo grande" hidden="false" targetId="9e28-dc38-0f21-77f6" type="rule"/>
+        <infoLink id="6a7e-dc00-1c58-2ca9" name="Inestable" hidden="false" targetId="e1e7-a7dd-415e-a2a4" type="rule"/>
+        <infoLink id="6ab5-0275-1009-b51e" name="Inmune a psicología" hidden="false" targetId="3970-3b01-1734-d642" type="rule"/>
+        <infoLink id="5e3a-f572-5c64-a85d" name="Ataques mágicos" hidden="false" targetId="6e5c-a8a4-78d0-032b" type="rule"/>
+        <infoLink id="b758-9d34-1bd9-800d" name="Monstruo arcano" hidden="false" targetId="18e9-2d5c-9f5d-cd21" type="rule"/>
+        <infoLink id="3d36-6ee8-6b90-b81d" name="Vinculado (X)" hidden="false" targetId="3a75-7c99-6630-8685" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cf78-8a9c-d5e7-0293" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb20-5158-f9cc-a478" name="Fauces del terror (monstruo arcano)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6f2b-3ff7-fccf-ddaf" name="Fauces del terror" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">5D6</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">2</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">0</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">6</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">5</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">5</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">1</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">4</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">7</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e">4+</characteristic>
+            <characteristic name="TSE" typeId="5d21-7e7e-60e3-a458"/>
+            <characteristic name="RM" typeId="784b-e30f-e0fd-53b1"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Monstruo</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c514-0e08-926d-3bab" name="Tunelador" hidden="false">
+          <description>Como la regla especial “volar” pero usando el movimiento de la criatura (5D6cm) y sin verse afectado por efectos que impidan volar como el pergamino skaven de Tormenta de Disformidad. Ten en cuenta que huye y persigue 5D6 y que puede declarar cargas “atravesando” otras unidades; trátalo siempre como una criatura voladora (aunque no vuele) en caso de dudas, pero moviendo 5D6. En caso que la miniatura termine su movimiento aleatorio encima de una unidad u obstáculo, deberá ponerse delante o detrás de la unidad u obstáculo, para evitar solaparse, siempre en el lado más cercano al punto donde las Fauces han empezado su movimiento.
+En caso de finalizar su movimiento en terreno impasable o unidades amigas, el monstruo deberá colocarse a 3cm de distancia lo más cerca posible del punto de salida. Eso se considera parte de su movimiento normal y puede llevarlo a trabarse con unidades enemigas, por ejemplo. Si a causa de su movimiento aleatorio finaliza fuera del campo de batalla (excepto si está persiguiendo a una unidad que huye de forma habitual), se contará como muerto.</description>
+        </rule>
+        <rule id="a55d-0057-b4e1-a48e" name="Inclusión" hidden="false">
+          <description>Sólo puedes incluir Fauces del Terror en un ejército de Mercenarios o Reino del Caos.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b098-0d8c-9a21-c8b1" name="Terror" hidden="false" targetId="31ab-3ff3-e34f-baac" type="rule"/>
+        <infoLink id="643b-b5ea-47c3-72a4" name="Objetivo grande" hidden="false" targetId="9e28-dc38-0f21-77f6" type="rule"/>
+        <infoLink id="9687-2f03-39be-0d6c" name="Tozudez" hidden="false" targetId="ad33-61eb-3490-bb38" type="rule"/>
+        <infoLink id="87a8-fe29-6f2f-4c8a" name="Monstruo arcano" hidden="false" targetId="18e9-2d5c-9f5d-cd21" type="rule"/>
+        <infoLink id="a6a2-2229-7578-7d08" name="Impactos por carga (1D6)" hidden="false" targetId="944f-4d13-dd5d-baa5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1895-2326-9171-f16b" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="185.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule id="18e9-2d5c-9f5d-cd21" name="Monstruo arcano" hidden="false">
+      <description>Cualquier ejército de Warhammer, incluyendo Mercenarios y Bretonia, puede incluir Monstruos Arcanos, como una opción de unidad Singular.
+Sólo puedes incluir una miniatura de la sección de Monstruos Arcanos por cada 2000 puntos. Así, una partida a 1500 puntos no permitiría ningún Monstruo Arcano, mientras que una partida a 4.500 puntos permitiría dos. </description>
+    </rule>
+    <rule id="3a75-7c99-6630-8685" name="Vinculado (X)" hidden="false">
+      <description>Para poder incluir este monstruo, tu ejército debe contar con un hechicero con el saber X. A inicio de cualquier turno propio, si en tu ejército no hay ningún hechicero con el saber X, el monstruo debe efectuar una tirada en la Tabla de Reacción de Monstruos como si fuera una montura que hubiera perdido a su jinete.</description>
+    </rule>
+    <rule id="5bac-d6aa-51f0-82d5" name="Petrificar (1D6)" hidden="false">
+      <description>La mirada de esta criatura convierte a sus enemigos en piedra. Se considera a todos los efectos un ataque de disparo con un alcance de 20cm; no es necesario hacer tirada para impactar (y puede hacerse aunque la miniatura tenga HP0). El ataque impacta automáticamente. La víctima puede intentar apartarse en el último momento para evitar el destino que le espera. Para ello, la víctima debe hacer un chequeo de Iniciativa (lanza 1D6, debe obtenerse un valor inferior o igual a la Iniciativa, un 6 siempre es un fallo. Si lo supera, no ocurre nada. Si no lo supera, la víctima se transforma lentamente en piedra y muere (retírala como baja, sea cual sea su tamaño). No pueden efectuarse tiradas de salvación por armadura contra este ataque ni regeneración, pero sí tiradas de salvación especial.
+Por ejemplo, en la fase de disparo un Basilisco declara que utiliza “Petrificar” contra un Príncipe élfico montado en dragón que está en su ángulo de visión. El jugador de Mercenarios mide la distancia entre ambas unidades y resultan estar a 18 cm, por lo cual pasa a determinar el número de impactos. Lanza 1D6 y obtiene un total de 5 impactos, los cuales deben de ser distribuidos aleatoriamente entre el jinete y la montura. Tras tirar los dados (1, 3, 3, 5, 6) la montura recibe tres impactos y el jinete dos. El dragón tiene I3, asi que un 3+ bastará para causarle una herida, mientras que el Príncipe tiene I8, por lo cual se necesitará un 6+. El jugador de Mercenarios efectúa las tiradas para herir y el dragón recibe dos heridas que no podrá salvar utilizando su piel escamosa, mientras que el príncipe recibe solamente una... ¿tendrá el elfo algún objeto que proporcione tirada de Salvación Especial?
+</description>
+    </rule>
+  </sharedRules>
+</catalogue>
